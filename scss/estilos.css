@@ -74,6 +74,8 @@ body {
           animation-duration: 7s;
   -webkit-animation-delay: 0;
           animation-delay: 0;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .contenedor-image p {
@@ -320,10 +322,52 @@ footer-container {
   -ms-flex-line-pack: center;
       align-content: center;
   padding: 100px;
+  overflow: hidden;
+  position: relative;
+  max-width: 1920px;
+}
+
+.form-container-home p-4 img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
+  -webkit-animation-name: zoom;
+          animation-name: zoom;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .texto-container-form-home {
   text-align: center;
   padding: 100px;
+}
+
+.fondo-body-form img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
 }
 /*# sourceMappingURL=estilos.css.map */

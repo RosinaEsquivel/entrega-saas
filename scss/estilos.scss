@@ -46,6 +46,7 @@ body{
 		animation-timing-function: linear;
 		animation-duration: 7s;
 		animation-delay: 0;
+		animation-fill-mode: forwards;
 	}
 	p{
 	font-size: 3rem;
@@ -196,8 +197,36 @@ footer-container{
 .form-container-home p-4{
 	align-content: center;
 	padding: 100px;
+	overflow: hidden;
+	position: relative;
+	max-width: 1920px;
+	img{
+		display: flex;
+		position: relative;
+		justify-content: center;
+		width: 100%;
+		max-width: 1920px;
+		margin: auto;
+		animation-name: zoom;
+		animation-iteration-count: 1;
+		animation-timing-function: linear;
+		animation-duration: 7s;
+		animation-delay: 0;
+		animation-fill-mode: forwards;
+	}
 }
 .texto-container-form-home{
 	text-align: center;
 	padding: 100px;
+}
+.fondo-body-form{
+	img{
+	display: flex;
+	position: relative;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	max-width: 1920px;
+	margin: auto;
+	}
 }
